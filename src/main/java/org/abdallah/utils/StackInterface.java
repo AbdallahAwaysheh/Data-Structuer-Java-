@@ -1,0 +1,8 @@
+package org.abdallah.utils;
+
+public interface StackInterface<T> {
+    void push(T item);
+    T pop();
+    T peek();
+    boolean isEmpty();
+}
